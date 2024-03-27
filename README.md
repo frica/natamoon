@@ -1,6 +1,8 @@
 # NataMoon
 
-Simple [Progressive Web Application](https://en.wikipedia.org/wiki/Progressive_web_app) (PWA) giving the next full moon date
+Simple [Progressive Web Application](https://en.wikipedia.org/wiki/Progressive_web_app) (PWA) giving the next full moon date.
+
+That's it :smile:
 
 ## Uses
 
@@ -9,9 +11,11 @@ Simple [Progressive Web Application](https://en.wikipedia.org/wiki/Progressive_w
 
 ## Screenshot
 
-![screenshot]()
+![screenshot](screenshot.png)
 
-PWA screenshot from lighthouse
+Validation from Google Lighthouse:
+
+![validation](pwa.png)
 
 ## Install
 
@@ -21,4 +25,7 @@ PWA screenshot from lighthouse
 
 ## Sources
 
-Skeleton PWA from https://github.com/Trigo93/flask_pwa_example
+Skeleton PWA from:
+* https://github.com/Trigo93/flask_pwa_example
+
+Thanks [Trigo93](https://github.com/Trigo93)!
