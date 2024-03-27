@@ -4,6 +4,8 @@ Simple [Progressive Web Application](https://en.wikipedia.org/wiki/Progressive_w
 
 That's it :smile:
 
+Application in French but easily translatable.
+
 ## Uses
 
 * Flask
