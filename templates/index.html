@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>NataMoon</title>
+    <meta name="theme-color" content="#317EFB"/>
+    <meta name="description" content="indique la prochaine pleine lune">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='icons/favicon.ico') }}">
+    <!--    Urls resolved correctly at runtime -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='icons/icon_144x144.png') }}" type="image/png">
+    <link rel="icon" href="{{ url_for('static', filename='icons/icon_192x192.png') }}" type="image/png">
+    <link rel="icon" href="{{ url_for('static', filename='icons/icon_512x512.png') }}" type="image/png">
+    <link rel="apple-touch-icon" href="{{ url_for('static', filename='icons/icon_144x144.png') }}" type="image/png">
+    <link rel="apple-touch-icon" href="{{ url_for('static', filename='icons/icon_192x192.png') }}" type="image/png">
+    <link rel="apple-touch-icon" href="{{ url_for('static', filename='icons/icon_512x512.png') }}" type="image/png">
+    <link rel="manifest" href="/manifest.json">
+    <script>
+        if ('serviceWorker' in navigator) {
+          window.addEventListener('load', function() {
+            navigator.serviceWorker.register("/sw.js").then(function(registration) {
+              console.log('ServiceWorker registration successful with scope: ', registration.scope);
+            }, function(err) {
+              console.log('ServiceWorker registration failed: ', err);
+            });
+          });
+        }
+    </script>
+</head>
+<body>
+<div id="rcorners">
+    <h2 align="center">Quand est la prochaine pleine lune ?</h2>
+    <p align="center">Nous sommes le {{ today }}</p>
+    <p align="center">La prochaine pleine lune sera le:</p>
+    <h3 align="center">{{ date }}</h3>
+    <img src="{{ url_for('static', filename='images/moon.2060_no_bg.png') }}" alt="Picture of the moon" width="70%"/>
+</div>
+</body>
+</html>

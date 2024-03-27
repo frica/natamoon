@@ -1,0 +1,5 @@
+flask~=3.0.2
+gunicorn
+ephem~=4.1.5
+Babel~=2.14.0
+gunicorn
