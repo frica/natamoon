@@ -11,17 +11,16 @@ That's it :smile:
 
 ## Screenshot
 
-![screenshot](screenshot.png)
-
-Validation from Google Lighthouse:
-
-![validation](pwa.png)
+<p align="center">
+  <img src="screenshot.png" alt="Home screen" width="50%"/>
+<img src="pwa.png" alt="PWA validation from Google Lighthouse" width="50%"/>
+</p>
 
 ## Install
 
 * go to url
-* on Chrome, click on
-* on Firefox, click on
+* on Chrome, click on the button in the address bar to open the "Install app" dialog
+* on Firefox on Android, click on the 3 dots to open Firefox main menu, then tap **Install**
 
 ## Sources
 
